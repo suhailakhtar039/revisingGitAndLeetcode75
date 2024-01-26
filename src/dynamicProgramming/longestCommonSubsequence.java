@@ -1,3 +1,5 @@
+package dynamicProgramming;
+
 public class longestCommonSubsequence {
     public static void solve(){
         class Solution {

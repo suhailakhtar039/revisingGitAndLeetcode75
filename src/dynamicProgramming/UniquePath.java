@@ -1,3 +1,5 @@
+package dynamicProgramming;
+
 public class UniquePath {
     public static void solve(){
         int n=3,m=7;

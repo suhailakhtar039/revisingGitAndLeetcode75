@@ -1,3 +1,5 @@
+package dynamicProgramming;
+
 public class HouseRobber2 {
     private static int findMaxProfit(int[] arr){
         int n = arr.length;

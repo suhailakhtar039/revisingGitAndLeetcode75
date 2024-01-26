@@ -1,3 +1,5 @@
+package dynamicProgramming;
+
 public class JumpGame {
     public static void solve(){
         int[] nums={3,2,1,0,4};
