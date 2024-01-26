@@ -1,3 +1,5 @@
+package Matrix;
+
 public class SetMatrixZero {
     public static void solve(){
         int n = 3, m = 3;
