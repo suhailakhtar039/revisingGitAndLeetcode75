@@ -1,4 +1,4 @@
-package DesignPatternsPractice;
+package DesignPatternsPractice.Structural;
 
 abstract class BasePizza{
     public abstract int cost();

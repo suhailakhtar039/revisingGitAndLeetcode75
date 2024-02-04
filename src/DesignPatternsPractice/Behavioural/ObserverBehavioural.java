@@ -1,4 +1,4 @@
-package DesignPatternsPractice;
+package DesignPatternsPractice.Behavioural;
 
 import java.util.ArrayList;
 import java.util.List;
