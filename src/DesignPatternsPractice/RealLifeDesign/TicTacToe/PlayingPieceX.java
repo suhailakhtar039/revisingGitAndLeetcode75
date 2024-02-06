@@ -4,7 +4,7 @@ import DesignPatternsPractice.RealLifeDesign.TicTacToe.PlayingPiece;
 
 public class PlayingPieceX extends PlayingPiece {
 
-    PlayingPieceX() {
-        super(pieceType.X);
+    public PlayingPieceX() {
+        super(PieceType.X);
     }
 }

@@ -4,7 +4,7 @@ import DesignPatternsPractice.RealLifeDesign.TicTacToe.PieceType;
 
 public class PlayingPiece {
     public PieceType pieceType;
-    PlayingPiece(PieceType pieceType){
+    public PlayingPiece(PieceType pieceType){
         this.pieceType = pieceType;
     }
 }
