@@ -1,3 +1,5 @@
+package Array;
+
 public class maxElementInRotatedArray {
     public static int solve(){
         int[] arr = {10,15,17,4,5,6,7};

@@ -1,3 +1,5 @@
+package Array;
+
 public class searchInRoatedArray {
     public static void solve(){
         int[] nums = {8, 9, 10, 3, 5, 7};

@@ -1,3 +1,5 @@
+package Array;
+
 public class maxProductSubArray {
     public static void solve(){
         int[] nums = {-3, -4, 0, 3, 1};

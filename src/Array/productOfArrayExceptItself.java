@@ -1,3 +1,5 @@
+package Array;
+
 public class productOfArrayExceptItself {
     public static void solve(){
         int[] nums = {4,2,3,1};

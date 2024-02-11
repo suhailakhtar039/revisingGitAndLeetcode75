@@ -1,3 +1,5 @@
+package Array;
+
 public class buyAndSellStock {
 
     public static void solve(){

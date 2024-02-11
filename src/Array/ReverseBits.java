@@ -1,3 +1,5 @@
+package Array;
+
 public class ReverseBits {
     public static void solve(){
         int n = 11;

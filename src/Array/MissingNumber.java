@@ -1,3 +1,5 @@
+package Array;
+
 public class MissingNumber {
     public static void solve(){
         int nums[] = {0,2,1,4};

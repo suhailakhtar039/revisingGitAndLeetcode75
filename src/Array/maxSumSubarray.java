@@ -1,3 +1,5 @@
+package Array;
+
 public class maxSumSubarray {
     public static void solve(){
         int[] nums={2,3,-3,4};
