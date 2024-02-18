@@ -22,4 +22,13 @@ class TreeNodeUtil{
             return 0;
         return 1 + Math.max(maxHeight(root.left),maxHeight(root.right));
     }
+
+    // print tree inorder
+    void printPreOrder(TreeNode root){
+        if(root == null)
+            return;
+        System.out.println(root.val);
+        printPreOrder(root.left);
+        printPreOrder(root.right);
+    }
 }
