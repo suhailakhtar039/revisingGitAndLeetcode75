@@ -13,17 +13,28 @@ class LCA extends TreeNodeUtil{
         return b;
     }
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q){
-        if(root == null)
-            return root;
-        TreeNode first = min(p,q);
-        TreeNode second = max(p,q);
-        if(root.val>=first.val && root.val<=second.val){
-            return root;
+        // if(root == null)
+        //     return root;
+        // TreeNode first = min(p,q);
+        // TreeNode second = max(p,q);
+        // if(root.val>=first.val && root.val<=second.val){
+        //     return root;
+        // }
+        // else if(p.val <= root.val && q.val <= root.val)
+        //     return lowestCommonAncestor(root.left, p, q);
+        // else
+        //     return lowestCommonAncestor(root.right,p,q);
+        while(root != null){
+            TreeNode maxValue = max(p,q);
+            TreeNode minValue = min(p,q);
+            if(root.val > maxValue.val)
+                root = root.left;
+            else if(root.val < minValue.val)
+                root = root.right;
+            else
+                return root;
         }
-        else if(p.val <= root.val && q.val <= root.val)
-            return lowestCommonAncestor(root.left, p, q);
-        else
-            return lowestCommonAncestor(root.right,p,q);
+        return null;
     }
 }
 
