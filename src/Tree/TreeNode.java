@@ -1,5 +1,7 @@
 package Tree;
 
+import java.util.Stack;
+
 public class TreeNode{
     int val;
     TreeNode left;
@@ -30,5 +32,18 @@ class TreeNodeUtil{
         System.out.println(root.val);
         printPreOrder(root.left);
         printPreOrder(root.right);
+    }
+    public void iterativeInorder(TreeNode root){
+        Stack<TreeNode> st = new Stack<>();
+        while(!st.empty() || root != null){
+            while(root != null){
+                st.push(root);
+                root = root.left;
+            }
+            root = st.pop();
+            System.out.println(root.val);
+            root = root.right;
+        }
+        return ;
     }
 }
