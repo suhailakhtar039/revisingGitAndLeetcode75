@@ -211,3 +211,17 @@ class Random implements Comparator<Node> {
         return 0;
     }
 }
+
+class ListNode{
+    int val;
+    ListNode next;
+    ListNode(){}
+    ListNode(int val){
+        this.val = val;
+        next = null;
+    }
+    ListNode(int val, ListNode nxt){
+        this.val = val;
+        this.next = nxt;
+    }
+}
