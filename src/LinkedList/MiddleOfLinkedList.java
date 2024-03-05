@@ -6,7 +6,7 @@ public class MiddleOfLinkedList {
         ListNode root = new ListNode(1);
         root.next = new ListNode(2);
         root.next.next = new ListNode(3);
-        // root.next.next.next = new ListNode(4);
+        root.next.next.next = new ListNode(4);
 
         ListNode slow = root, fast = root;
         while(fast!=null && fast.next!=null){
