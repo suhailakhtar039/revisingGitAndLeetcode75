@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package DynamicProgramming;
 
 public class LongestIncreasingSubsequence {
     public static void solve(){

@@ -1,6 +1,4 @@
-package dynamicProgramming;
-
-import java.util.Arrays;
+package DynamicProgramming;
 
 public class HouseRobber {
     public static int solve(){

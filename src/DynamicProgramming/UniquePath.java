@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package DynamicProgramming;
 
 public class UniquePath {
     public static void solve(){

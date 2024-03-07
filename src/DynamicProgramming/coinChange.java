@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package DynamicProgramming;
 
 public class coinChange {
     public static void solve(){

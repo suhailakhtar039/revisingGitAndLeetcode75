@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package DynamicProgramming;
 
 public class HouseRobber2 {
     private static int findMaxProfit(int[] arr){
