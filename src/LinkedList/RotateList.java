@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class RotateString {
+public class RotateList {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);
